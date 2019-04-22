@@ -1,3 +1,10 @@
-h1{
-    color: red;
+body {
+    background-color: #A49D81;
+}
+
+li {
+    display: inline-block;
+    border: 2px solid #7D2C2C;
+    padding: 10px;
+
 }
