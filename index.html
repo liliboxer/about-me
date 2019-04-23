@@ -9,38 +9,39 @@
 </head>
 
 <body>
-
-    <h1>Lili Boxer</h1>
-    <p>Hello, welcome! I am Lili (lee-lee) Boxer. I moved to Portland in August 2018, and am
-        excited for summer and this program. Click around to learn more.</p>
-
-    <nav class='top-nav'>
-        <ol>
-            <li><a href='#location'>Where are you from?</a></li>
-            <li><a href='#pets'>Do you have pets?</a></li>
-            <li><a href='#travel'>Where have you traveled?</a></li>
-        </ol>
-    </nav>
-
+    <header>
+        <h1>Lili Boxer</h1>
+        <p>Hello, welcome! I am Lili (lee-lee) Boxer. I moved to Portland in August 2018, and am
+            excited for summer and this program. Click around to learn more.</p>
+    
+        <nav class='top-nav'>
+            <ol>
+                <li><a href='#location'>Where are you from?</a></li>
+                <li><a href='#pets'>Do you have pets?</a></li>
+                <li><a href='#travel'>Where have you traveled?</a></li>
+            </ol>
+        </nav>
+    </header>
+   
     <img src="./_M3A4882.jpg" alt="blue glacier">
 
-    <div>
+    <section>
         <h2 class='question' id='location'>Where are you from?</h2>
         <p>I am from the East Coast, Massachusetts specifically, Boston even more specifically. 
             Before moving here, I lived in Denver for a year. I miss some East Coast things but 
             overall am loving West Coast life.</p>
         <img src="https://cdn.pixabay.com/photo/2015/10/12/15/03/matterhorn-984128_960_720.jpg" alt="zermatt">
-    </div>
+    </section>
 
-    <div>
+    <section>
         <h2 class='question' id='pets'>Do you have pets?</h2>
         <img class='max' src="./IMG_4942.jpg" alt="max">
         <p>Yes! I have a cat named, Max. I got him in New Hampshire in 2016 and he's been the 
             best thing ever. He's 8 years old. He loves cuddles and snoozing and making biscuits.</p>
         <img src="https://cdn.pixabay.com/photo/2016/03/09/11/57/grand-canyon-1246248_960_720.jpg" alt="grand canyon">
-     </div>
+     </section>
 
-    <div>
+    <section>
         <h2 class='question' id='travel'>Where have you traveled?</h2>
         <p>I have had the privilege of tarveling internationally and all around the US. </p>
         <h3>Places I've been</h3>
@@ -52,9 +53,41 @@
                 <li>Switzerland</li>
                 <li>Mexico</li>
                 <li>Canada</li>
+                <li>Austria (for a hot second)</li>
+                <li>Liechtenstein</li>
             </ul>
         <img class='venice'src="https://cdn.pixabay.com/photo/2017/06/28/15/32/venice-2451047_960_720.jpg" alt="venice">
-    </div>
+    </section>
+
+    <section>
+        <h2>Alright, let's see how much you've retained. QUIZ TIME.</h2>
+
+        <div>
+            <label for='max-answer'>Who is Max?</label>
+            <input id='max-answer'>
+        </div>
+
+        <div>
+            <label for='countries-answer'>How many countries has Lili visited?</label>
+            <input id='countries-answer'>
+        </div>
+
+        <div>
+            <label for='coast-answer'>Is Lili a West Coast native??</label>
+            <input id='coast-answer'>
+        </div>
+
+        <div>
+            <label for='fun-answer'>Are you having fun yet?</label>
+            <input id='fun-answer'>
+        </div>
+
+        <div>
+            <label for='desert-answer'>Do you like ice cream?</label>
+            <input id='desert-answer'>
+        </div>
+
+    </section>
 
 <footer>
     <p class='copyright'>&copy; Lili Boxer 2019</p>
