@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+
 body {
     background-color: black;
     color: white;
-    
+}
+
+h1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 100px;
 }
 
 nav li {
     display: inline-block;
     border: 2px solid #7D2C2C;
     padding: 10px;
-
 }
 
 ul {
