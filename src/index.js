@@ -6,5 +6,9 @@ const desertResponse = document.getElementById('desert-answer');
 const quizResult = document.getElementById('quiz-result');
 
 submitButton.addEventListener('click', ()) => {
-
+    const maxAnswer = maxResponse.value;
+    const countriesAnswer = countriesResponse.value;
+    const coastAnswer = coastResponse.value;
+    const funAnswer = funResponse.value;
+    const desertAnswer = desertResponse.value;
 };
