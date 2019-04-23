@@ -12,4 +12,8 @@ submitButton.addEventListener('click', () => {
     const coastAnswer = coastResponse.value;
     const funAnswer = funResponse.value;
     const desertAnswer = desertResponse.value;
+
+    const score = scoreAnswer(maxAnswer, countriesAnswer, coastAnswer, funAnswer, desertAnswer);
+
+    const message = 'You got ' + score + '/5 correct'
 });
