@@ -12,6 +12,4 @@ submitButton.addEventListener('click', () => {
     const coastAnswer = coastResponse.value;
     const funAnswer = funResponse.value;
     const desertAnswer = desertResponse.value;
-
-    console.log(countriesAnswer);
 });
