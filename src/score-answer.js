@@ -23,3 +23,5 @@ function scoreAnswer(maxAnswer, countriesAnswer, coastAnswer, funAnswer, desertA
 
     return score;
 };
+
+export default scoreAnswer;
