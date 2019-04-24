@@ -6,7 +6,7 @@ const coastResponse = document.getElementById('coast-answer');
 const funResponse = document.getElementById('fun-answer'); 
 const desertResponse = document.getElementById('desert-answer');
 const quizResult = document.getElementById('quiz-results');
-const submitButton = document.getElementById('submit-button')
+const submitButton = document.getElementById('submit-button');
 
 submitButton.addEventListener('click', () => {
     const maxAnswer = maxResponse.value;
@@ -21,7 +21,7 @@ submitButton.addEventListener('click', () => {
 
     quizResult.textContent = message;
 
-    if (score < 2) {
+    if(score < 2) {
         quizResult.classList.add('bad');
         quizResult.classList.remove('good');
     } else {
