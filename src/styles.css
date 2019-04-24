@@ -89,3 +89,16 @@ label {
     display: block;
     padding: 20px;
 }
+
+input {
+    text-align: center;
+    padding: 10px;
+}
+
+.bad {
+    color: red;
+}
+
+.good {
+    color: green;
+}

@@ -20,4 +20,12 @@ submitButton.addEventListener('click', () => {
     const message = 'You got ' + score + '/5 correct.';
 
     quizResult.textContent = message;
+
+    if (score < 2) {
+        quizResult.classList.add('bad');
+        quizResult.classList.remove('good');
+    } else {
+        quizResult.classList.add('good');
+        quizResult.classList.remove('bad');
+    }
 });
