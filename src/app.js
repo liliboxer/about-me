@@ -17,7 +17,7 @@ submitButton.addEventListener('click', () => {
 
     const score = scoreAnswer(maxAnswer, countriesAnswer, coastAnswer, funAnswer, desertAnswer);
 
-    const message = 'You got ' + score + '/5 correct';
-    
+    const message = 'You got ' + score + '/5 correct.';
+
     quizResult.textContent = message;
 });
