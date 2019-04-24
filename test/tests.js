@@ -1,4 +1,4 @@
-import scoreAnswer from './score-answer.js';
+import scoreAnswer from '../src/score-answer.js';
 const test = QUnit.test;
 
 test('all answers correct', function(assert) {
@@ -10,7 +10,7 @@ test('all answers correct', function(assert) {
     const funAnswer = 'yes';
     const desertAnswer = 'yes';
 
-    const expected = 6;
+    const expected = 5;
 
     //Act 
     // Call the function you're testing and set the result to a const
