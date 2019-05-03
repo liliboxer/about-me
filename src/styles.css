@@ -73,3 +73,34 @@ footer {
 .credit {
     font-size: 10px;
 }
+
+button {
+    margin-top: 30px;
+    font-size: 2em;
+    padding: 20px;
+    color: rgb(160, 205, 222)
+}
+
+button:hover {
+    color: orange;
+}
+
+label {
+    display: block;
+    padding: 20px;
+}
+
+input {
+    text-align: center;
+    padding: 10px;
+}
+
+.bad {
+    color: red;
+}
+
+.good {
+    color: green;
+}
+  
+
